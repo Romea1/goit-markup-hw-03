@@ -7,115 +7,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <title>Студія</title>
 </head>
 
 <body>
-    <header class="header">
+    <div class="container">
+        <header class="header">
+            <div class="header-container">
+                <a class="logo link" href="./index.html"><span class="logo-part">Web</span>Studio</a>
+                <ul class="nav-list list">
+                    <li class="nav-list-item">
+                        <a href="./index.html" class="nav-list link">Студія</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="./portfolio.html" class="nav-list link current">Портфоліо</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="" class="nav-list link">Контакти</a>
+                    </li>
+                </ul>
+                </nav>
+                <ul class="contact list">
+                    <li class="contactlist"> <a href="mailto:info@devstudio.com"
+                            class="contact-list link">info@devstudio.com</a></li>
+                    <li class="contactlist"><a href="tel:+380961111111" class="contact-list link">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section class="section">
+                <h1>Наші проекти</h1>
+                <ul class="button-list list">
+                    <li class="button-proect"><button class="button" type="button">Усі</button> </li>
+                    <li class="button-proect"><button class="button" type="button">Веб-сайти</button></li>
+                    <li class="button-proect"><button class="button" type="button">Додатки</button></li>
+                    <li class="button-proect"><button class="button" type="button">Дизайн</button></li>
+                    <li class="button-proect"><button class="button" type="button">Маркетинг</button></li>
+                </ul>
 
-        <nav class="navigation">
-            <a class="logo link" href="./index.html"><span class="logo-part">Web</span>Studio</a>
-            <ul class="nav-list list">
-                <li class="nav-list-item">
-                    <a href="./index.html" class="nav-list link">Студія</a>
+                <div class="container">
+                    <ul class="section-proects list">
+                        <li class="proect-cart">
+                            <a class="proects link" href=""><img src="./images/box4.jpg" alt="зображення ноутбука"
+                                    width="370" height="294">
+                                <div class="content-proect-wrapper">
+                                    <h2 class="proect-title">Технокряк</h2>
+                                    <p class="description-proect">Веб-сайт</p>
+                            </a>
+                </div>
                 </li>
-                <li class="nav-list-item">
-                    <a href="./portfolio.html" class="nav-list link current">Портфоліо</a>
-                </li>
-                <li class="nav-list-item">
-                    <a href="" class="nav-list link">Контакти</a>
-                </li>
-            </ul>
-        </nav>
-        <ul class="contact list">
-            <li> <a href="mailto:info@devstudio.com" class="contact-list link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="contact-list link">+38 096 111 11 11</a></li>
-        </ul>
-    </header>
-    <main>
-        <section class="section">
-            <h1>Наші проекти</h1>
-        <ul class="button-list list">
-            <li><button class="button" type="button">Усі</button> </li>
-            <li><button class="button" type="button">Веб-сайти</button></li>
-            <li><button class="button" type="button">Додатки</button></li>
-            <li><button class="button" type="button">Дизайн</button></li>
-            <li><button class="button" type="button">Маркетинг</button></li>
-        </ul>
-        
-            
-            <ul class="section-proects list">
-                <li>
-                    <a class="proects link" href=""><img src="./images/box4.jpg" alt="зображення ноутбука" width="370"
-                            height="294">
-                        <h2 class="proect-title">Технокряк</h2>
-                        <p class="description-proect">Веб-сайт</p>
-                        </a>
-                </li>
-                <li>
+                <li class="proect-cart">
                     <a class="proects link" href=""><img src="./images/box5.jpg" alt="зображення баскетболістів"
                             width="370" height="294">
-                        <h2 class="proect-title">Постер New Orlean vs Golden Star</h2>
-                        <p class="description-proect">Дизайн</p>
-                        </a>
-                </li>
-                <li>
-                    <a class="proects link" href=""><img src="./images/box6.jpg" alt="зображення риби" width="370"
-                            height="294">
-                        <h2 class="proect-title">Ресторан Seafood</h2>
-                        <p class="description-proect">Додаток</p>
-                        </a>
-                </li>
-                <li>
-                    <a class="proects link" href=""><img src="./images/box7.jpg" alt="зображення навушники" width="370"
-                            height="294">
-                        <h2 class="proect-title">Проєкт Prime</h2>
-                        <p class="description-proect">Маркетинг</p>
-                        </a>
-                </li>
-                <li>
-                    <a class="proects link" href=""><img src="./images/box8.jpg" alt="зображення коробки" width="370"
-                            height="294">
-                        <h2 class="proect-title">Проєкт Boxes</h2>
-                        <p class="description-proect">Додаток</p>
-                        </a>
-                </li>
-                <li>
-                    <a class="proects link" href=""><img src="./images/box9.jpg" alt="зображення монітор" width="370"
-                            height="294">
-                        <h2 class="proect-title">Inspiration has no Borders</h2>
-                        <p class="description-proect">Веб-сайт</p>
-                        </a>
-                </li>
-                <li>
-                    <a class="proects link" href=""><img src="./images/box10.jpg" alt="зображення книги" width="370"
-                            height="294">
-                        <h2 class="proect-title">Видання Limited Edition</h2>
-                        <p class="description-proect">Дизайн</p>
-                        </a>
-                </li>
-                <li>
-                    <a class="proects link" href=""><img src="./images/box11.jpg" alt="зображення лейби" width="370"
-                            height="294">
-                        <h2 class="proect-title">Проєкт LAB</h2>
-                        <p class="description-proect">Маркетинг</p>
-                        </a>
-                </li>
-                <li>
-                    <a class="proects link" href=""><img src="./images/box12.jpg" alt="зображення ноутбука" width="370"
-                            height="294">
-                        <h2 class="proect-title">Growing Business</h2>
-                        <p class="description-proect">Додаток</p>
-                        </a>
-                </li>
+                        <div class="content-proect-wrapper">
+                            <h2 class="proect-title">Постер New Orlean vs Golden Star</h2>
+                            <p class="description-proect">Дизайн</p>
+                    </a>
+    </div>
+    </li>
+    <li class="proect-cart">
+        <a class="proects link" href=""><img src="./images/box6.jpg" alt="зображення риби" width="370" height="294">
+            <div class="content-proect-wrapper">
+                <h2 class="proect-title">Ресторан Seafood</h2>
+                <p class="description-proect">Додаток</p>
+        </a>
+        </div>
+    </li>
+    <li class="proect-cart">
+        <a class="proects link" href=""><img src="./images/box7.jpg" alt="зображення навушники" width="370"
+                height="294">
+            <div class="content-proect-wrapper">
+                <h2 class="proect-title">Проєкт Prime</h2>
+                <p class="description-proect">Маркетинг</p>
+        </a>
+        </div>
+    </li>
+    <li class="proect-cart">
+        <a class="proects link" href=""><img src="./images/box8.jpg" alt="зображення коробки" width="370" height="294">
+            <div class="content-proect-wrapper">
+                <h2 class="proect-title">Проєкт Boxes</h2>
+                <p class="description-proect">Додаток</p>
+        </a>
+        </div>
+    </li>
+    <li class="proect-cart">
+        <a class="proects link" href=""><img src="./images/box9.jpg" alt="зображення монітор" width="370" height="294">
+            <div class="content-proect-wrapper">
+                <h2 class="proect-title">Inspiration has no Borders</h2>
+                <p class="description-proect">Веб-сайт</p>
+        </a>
+        </div>
+    </li>
+    <li class="proect-cart">
+        <a class="proects link" href=""><img src="./images/box10.jpg" alt="зображення книги" width="370" height="294">
+            <div class="content-proect-wrapper">
+                <h2 class="proect-title">Видання Limited Edition</h2>
+                <p class="description-proect">Дизайн</p>
+        </a>
+        </div>
+    </li>
+    <li class="proect-cart">
+        <a class="proects link" href=""><img src="./images/box11.jpg" alt="зображення лейби" width="370" height="294">
+            <div class="content-proect-wrapper">
+                <h2 class="proect-title">Проєкт LAB</h2>
+                <p class="description-proect">Маркетинг</p>
+        </a>
+        </div>
+    </li>
+    <li class="proect-cart">
+        <a class="proects link" href=""><img src="./images/box12.jpg" alt="зображення ноутбука" width="370"
+                height="294">
+            <div class="content-proect-wrapper">
+                <h2 class="proect-title">Growing Business</h2>
+                <p class="description-proect">Додаток</p>
+        </a>
+        </div>
+    </li>
 
-            </ul>
-        </section>
+    </ul>
+    </div>
+    </section>
 
 
     </main>
@@ -125,17 +141,21 @@
 
         <address class="adress">
             <ul class="adress-list list">
-                <li> <a href="https://goo.gl/maps/hzJKrvGwyvVixg5J7" class="adress-title link" target="_blank"> м. Київ,
+                <li class="adress-list-item"> <a href="https://goo.gl/maps/hzJKrvGwyvVixg5J7" class="adress-title link"
+                        target="_blank"> м. Київ,
                         пр-т Лесі Українки, 26
                     </a> </li>
-                <li> <a href="mailto:info@devstudio.com" class="adress-contakt link">mailto:info@devstudio.com</a></li>
-                <li> <a href="tel:+380961111111" class="adress-contakt link">+38 096 111 11 11</a> </li>
+                <li class="adress-list-item"> <a href="mailto:info@devstudio.com"
+                        class="adress-contakt link">mailto:info@devstudio.com</a></li>
+                <li class="adress-list-item"> <a href="tel:+380961111111" class="adress-contakt link">+38 096 111 11
+                        11</a>
+                </li>
             </ul>
         </address>
 
 
     </footer>
-
+    </div>
 </body>
 
 </html>
