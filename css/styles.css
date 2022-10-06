@@ -149,8 +149,14 @@
  /*======MAIN=======*/
  /*HERO*/
  .hero {
-     background-color: var(--background-dark);
-     padding: 200px 0;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 200px 0;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+    background-size: cover;
+      
+  
  }
 
  .hero-title {
@@ -242,19 +248,22 @@
 
  .team-list {
      display: flex;
-     flex-wrap: wrap;
+    
+    column-gap: 30px;
  }
 
- .team:not(:nth-child(4n)) {
-     margin-right: 30px;
+ .team {
+    
+     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+     border-radius: 0px 0px 4px 4px;
  }
 
  .content-team-wrapper {
      padding-top: 30px;
      border-top: none;
-     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-     border-radius: 0px 0px 4px 4px;
+     
      background: #FFFFFF;
+     padding-bottom: 30px;
  }
 
  .title-card {
@@ -271,7 +280,7 @@
      line-height: 1.19;
      text-align: center;
      color: var(--title-text-color);
-     padding-bottom: 30px;
+    
  }
 
  /*=========END INDEX========*/
