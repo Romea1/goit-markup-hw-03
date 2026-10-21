@@ -1,0 +1,34 @@
+body{
+    font-family: 'Roboto', sans-serif;
+        color: #434455;
+        background-color: #fff;
+  
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button:hover,
+button:focus {
+    color: #404bbf;
+}
+
+a:hover,
+a:focus {
+    color: #404bbf;
+}
+
+.web-blue {
+    color: #4d5ae5;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+

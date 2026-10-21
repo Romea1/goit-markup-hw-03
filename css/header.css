@@ -1,0 +1,36 @@
+.header {
+    color: #2e2f42;
+    font-style: normal;
+}
+
+.header nav a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header nav a:hover,
+.header nav a:focus {
+    color: #404bbf;
+}
+
+.header address a {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header address a:hover,
+.header address a:focus {
+    color: #404bbf;
+}
+
+.logo {
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.33;
+}
