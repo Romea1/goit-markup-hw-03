@@ -1,3 +1,16 @@
+.features{
+    padding: 120px 0;
+}
+.features-list{
+display: flex;
+flex-wrap: nowrap;
+
+
+}
+.visually-hidden{
+    position: fixed;
+              transform: scale(0);
+}
 .features h3 {
     font-weight: 500;
     font-size: 20px;
@@ -12,3 +25,6 @@
     letter-spacing: 0.02em;
     color: #434455;
 }
+  .features-list-item:not(:last-child) {
+      margin-right: 24px;
+  }
