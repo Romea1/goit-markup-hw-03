@@ -10,10 +10,10 @@
         flex-direction: row;
         gap: 0; */
         width: 264px;
-            height: 112px;
+            /* height: 112px; */
             max-width: 264px;
 }
-.footer p {
+.footer-cont {
     margin-top: 16px;
     display: inline-block;
     font-size: 16px;

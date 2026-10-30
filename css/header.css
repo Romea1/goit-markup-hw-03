@@ -1,6 +1,7 @@
 .header {
     position: relative;
-      
+    border-bottom: 1px solid #e7e9fc;
+   
     color: #2e2f42;
     font-style: normal;
 
@@ -17,13 +18,14 @@
             display: flex; */
             -webkit-box-pack: justify;
             -ms-flex-pack: justify;
-            justify-content: space-between;
+        
             -webkit-box-align: center;
             -ms-flex-align: center;
             align-items: center;
 }
 
 .header nav a {
+    display: inline-block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -36,6 +38,8 @@ display: flex;
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
+    padding-top: 24px;
+        padding-bottom: 24px;
 margin-right: auto;
 }
 .nav-list{
@@ -57,6 +61,7 @@ margin-right: auto;
 }
 
 .header address a {
+    /* display: inline-block; */
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
@@ -71,6 +76,7 @@ margin-right: auto;
 
 .logo {
     display: inline-block;
+  
     font-size: 18px;
     letter-spacing: 0.03em;
     line-height: 1.33;
@@ -85,21 +91,21 @@ display: flex;
     justify-content: flex-start;
    flex-direction: row;
      gap: 40px; 
-/* padding-top: 24px;
-    padding-bottom: 24px; */
-
-}
-/* .contact-list-item{
-    display: inline-block;
     padding-top: 24px;
         padding-bottom: 24px;
-} */
- .contact-list-lin{
+
+
+}
+.contact-list-item{
+    gap: 40px;
+}
+
+ .contact-list-link{
     display: inline-block;
    
  }
-.nav-list-item:not(:last-child){
+/* .nav-list-item:not(:last-child){
 
     margin-right: 40px;
-}
+} */
 
