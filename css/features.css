@@ -1,12 +1,14 @@
-.features{
+.features {
     padding: 120px 0;
 }
-.features-list{
-display: flex;
-flex-wrap: nowrap;
+
+.features-list {
+    display: flex;
+    flex-wrap: nowrap;
 
 
 }
+
 /* .sr-only
 {
     position: fixed;
@@ -27,13 +29,16 @@ flex-wrap: nowrap;
     letter-spacing: 0.02em;
     color: #434455;
 }
-  .features-list-item:not(:last-child) {
-      margin-right: 24px;
-  }
-  .features-list-item{
+
+.features-list-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.features-list-item {
     width: 264px
-  }
-  /* .sr-only {
+}
+
+/* .sr-only {
       position: absolute;
       width: 1px;
       height: 1px;

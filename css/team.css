@@ -2,30 +2,32 @@
     padding: 120px 0;
     background-color: #f4f4fd;
 }
-.section-team{
+
+.section-team {
     display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        gap: 24px;
-        
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+
 }
-.team-title{
+
+.team-title {
     margin-bottom: 72px;
     font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        font-weight: 700;
-        color: #2e2f42;
-        text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    color: #2e2f42;
+    text-align: center;
 }
 
 
 .team-destitl {
-   
+
     /* margin-left: 16px; */
-        margin-bottom: 8px;
-  
+    margin-bottom: 8px;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -44,11 +46,12 @@
 }
 
 
-.team-box{
-padding: 32px 16px;
+.team-box {
+    padding: 32px 16px;
 
 }
-.team-img{
+
+.team-img {
     border-radius: 0 0 4px 4px;
     background-color: #ffffff;
 }
